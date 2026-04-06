@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <nav class="p-6 flex justify-between items-center bg-white shadow-sm sticky top-0 z-50">
+        <h1 class="text-xl font-bold tracking-tight">PORTFOLIO.</h1>
+        <div class="space-x-6">
+            <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+            <a href="#about" class="hover:text-blue-600 transition">About</a>
+            <a href="#contact" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact</a>
+        </div>
+    </nav>
+
+    <header class="py-20 px-6 text-center">
+        <h2 class="text-5xl font-extrabold mb-4">Hi, I'm [Your Name].</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            A passionate professional focused on building impactful solutions and creative designs.
+        </p>
+    </header>
+
+    <section id="projects" class="max-w-6xl mx-auto py-20 px-6">
+        <h3 class="text-3xl font-bold mb-12 border-b pb-4">Featured Projects</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-2 rounded-2xl shadow-sm border hover:shadow-md transition">
+                <div class="h-48 bg-gray-200 rounded-xl mb-4"></div>
+                <div class="p-4">
+                    <h4 class="font-bold text-xl">Project Alpha</h4>
+                    <p class="text-gray-600 mt-2">A brief description of what you achieved and the tools you used.</p>
+                </div>
+            </div>
+            <div class="bg-white p-2 rounded-2xl shadow-sm border hover:shadow-md transition">
+                <div class="h-48 bg-gray-200 rounded-xl mb-4"></div>
+                <div class="p-4">
+                    <h4 class="font-bold text-xl">Project Beta</h4>
+                    <p class="text-gray-600 mt-2">A brief description focusing on the problem you solved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-white py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">Expertise</h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="px-4 py-2 bg-blue-50 text-blue-700 rounded-full font-medium">Strategy</span>
+                <span class="px-4 py-2 bg-blue-50 text-blue-700 rounded-full font-medium">Development</span>
+                <span class="px-4 py-2 bg-blue-50 text-blue-700 rounded-full font-medium">Design</span>
+                <span class="px-4 py-2 bg-blue-50 text-blue-700 rounded-full font-medium">Leadership</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-10 text-center text-gray-500 border-t">
+        <p>© 2026 [Your Name] • Built with Tailwind CSS</p>
+    </footer>
+
+</body>
+</html>
